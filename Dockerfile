@@ -14,7 +14,6 @@ RUN apt-get -y install libtool
 RUN apt-get -y install pkg-config 
 RUN apt-get -y install nasm 
 RUN apt-get -y install build-essential
-RUN apt-get -y install autoconf
 RUN apt-get -y install supervisor
 RUN apt-get -y install libpng-dev
 RUN apt-get -y install openssl
