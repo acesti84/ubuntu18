@@ -5,8 +5,9 @@ RUN apt-get update
 RUN apt-get --fix-missing update
 
 # add some packages
-RUN apt-get -y install dialog 
 RUN apt-get -y install apt-utils 
+RUN apt-get -y install dialog 
+RUN apt-get -y install rsyslog
 RUN apt-get -y install wget
 RUN apt-get -y install software-properties-common 
 RUN apt-get -y install autoconf 
