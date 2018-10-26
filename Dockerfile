@@ -3,6 +3,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update
 RUN apt-get --fix-missing update
+RUN apt-get -y upgrade
 
 # add some packages
 RUN apt-get -y install apt-utils 
