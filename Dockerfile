@@ -15,6 +15,7 @@ RUN apt-get -y install pkg-config
 RUN apt-get -y install openssl
 RUN apt-get -y install curl 
 RUN apt-get -y install tzdata
+RUN apt-get -y install p7zip-full
 
 # configure timezone
 RUN ln -fs /usr/share/zoneinfo/Europe/Rome /etc/localtime
